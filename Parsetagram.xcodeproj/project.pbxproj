@@ -17,6 +17,7 @@
 		490D896B222F121800C8509C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D896A222F121800C8509C /* FeedViewController.swift */; };
 		498FB6F0222F3A66000C887B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FB6EF222F3A65000C887B /* CameraViewController.swift */; };
 		498FB6F2222F5CE5000C887B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FB6F1222F5CE5000C887B /* PostCell.swift */; };
+		49C566D3223756C600D3CB66 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C566D2223756C500D3CB66 /* CommentCell.swift */; };
 		6F0FCD89C750E1340D329937 /* Pods_Parsetagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6681E293A505AC113F2124 /* Pods_Parsetagram.framework */; };
 		7CA54D348C070744647A2BCD /* Pods_ParsetagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB03421F048103216C07115 /* Pods_ParsetagramUITests.framework */; };
 		A6F85FA104BF4D4F8F3F19B3 /* Pods_ParsetagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454957C4628218787C684DFC /* Pods_ParsetagramTests.framework */; };
@@ -58,6 +59,7 @@
 		490D896A222F121800C8509C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		498FB6EF222F3A65000C887B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		498FB6F1222F5CE5000C887B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		49C566D2223756C500D3CB66 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		6F6681E293A505AC113F2124 /* Pods_Parsetagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parsetagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF973EC5529EFD685A92E86 /* Pods-ParsetagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParsetagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParsetagramUITests/Pods-ParsetagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		80D32314DD04D8179153496B /* Pods-ParsetagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParsetagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParsetagramUITests/Pods-ParsetagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				490D896A222F121800C8509C /* FeedViewController.swift */,
 				498FB6EF222F3A65000C887B /* CameraViewController.swift */,
 				498FB6F1222F5CE5000C887B /* PostCell.swift */,
+				49C566D2223756C500D3CB66 /* CommentCell.swift */,
 			);
 			path = Parsetagram;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -392,6 +396,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				490D896B222F121800C8509C /* FeedViewController.swift in Sources */,
 				490D893B222F06D300C8509C /* AppDelegate.swift in Sources */,
 				498FB6F2222F5CE5000C887B /* PostCell.swift in Sources */,
+				49C566D3223756C600D3CB66 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
